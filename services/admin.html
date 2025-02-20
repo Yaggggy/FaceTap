@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <h1>Admin Dashboard</h1>
+    <h2>Registered Users</h2>
+    <ul id="users"></ul>
+
+    <h2>Authentication Logs</h2>
+    <ul id="logs"></ul>
+
+    <script>
+      fetch("/users")
+        .then((response) => response.json())
+        .then((data) => {
+          const userList = document.getElementById("users");
+          data.users.forEach((user) => {
+            let li = document.createElement("li");
+            li.textContent = user.name + " (ID: " + user.encrypted_id + ")";
+            userList.appendChild(li);
+          });
+        });
+
+      fetch("/logs")
+        .then((response) => response.json())
+        .then((data) => {
+          const logList = document.getElementById("logs");
+          data.logs.forEach((log) => {
+            let li = document.createElement("li");
+            li.textContent = log;
+            logList.appendChild(li);
+          });
+        });
+    </script>
+  </body>
+</html>

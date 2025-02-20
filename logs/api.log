@@ -1,0 +1,146 @@
+2025-02-20 02:45:50,202 - INFO - \U0001f5a5\ufe0f Served frontend to client
+2025-02-20 02:45:53,763 - INFO - \U0001f680 API Server Started
+2025-02-20 02:45:53,763 - INFO - \u2705 Database and users table ensured
+2025-02-20 02:45:53,779 - ERROR - \u274c Error during authentication: no such column: user_id
+2025-02-20 02:45:57,492 - ERROR - \u274c Error during authentication: no such column: user_id
+2025-02-20 02:46:56,170 - INFO - \U0001f5a5\ufe0f Served frontend to client
+2025-02-20 02:46:59,759 - INFO - \U0001f680 API Server Started
+2025-02-20 02:46:59,760 - INFO - \u2705 Database and users table ensured
+2025-02-20 02:47:01,803 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 02:47:11,951 - ERROR - \u274c Error during registration: NOT NULL constraint failed: users.encrypted_id
+2025-02-20 02:47:20,692 - ERROR - \u274c Error during registration: NOT NULL constraint failed: users.encrypted_id
+2025-02-20 02:49:47,855 - INFO - \U0001f680 API Server Started
+2025-02-20 02:49:47,855 - INFO - \u2705 Database and users table ensured
+2025-02-20 02:50:59,022 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 02:51:01,490 - INFO - \U0001f680 API Server Started
+2025-02-20 02:51:01,491 - INFO - \u2705 Database and users table ensured
+2025-02-20 02:51:03,190 - INFO - \u2705 User databaseetytehrtrgeafg registered successfully with ID 9e6d5fc8-7512-4186-9cc6-e5c9c5711af5
+2025-02-20 02:51:11,293 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 02:54:47,713 - INFO - \U0001f680 API Server Started
+2025-02-20 02:54:47,713 - INFO - \u2705 Database and users table ensured
+2025-02-20 02:59:23,833 - INFO - \U0001f5a5\ufe0f Served frontend to client
+2025-02-20 02:59:27,623 - INFO - \U0001f680 API Server Started
+2025-02-20 02:59:27,624 - INFO - \u2705 Database setup completed
+2025-02-20 02:59:30,415 - ERROR - \u274c Error during registration: NOT NULL constraint failed: users.encrypted_id
+2025-02-20 02:59:44,869 - ERROR - \u274c Error during authentication: name 'face_encoding' is not defined
+2025-02-20 02:59:47,171 - INFO - \U0001f680 API Server Started
+2025-02-20 02:59:47,171 - INFO - \u2705 Database setup completed
+2025-02-20 02:59:50,279 - ERROR - \u274c Error during authentication: name 'face_encoding' is not defined
+2025-02-20 03:01:14,235 - INFO - \U0001f680 API Server Started
+2025-02-20 03:01:14,238 - INFO - \u2705 Database setup completed
+2025-02-20 03:01:25,533 - INFO - \U0001f680 API Server Started
+2025-02-20 03:01:25,533 - INFO - \u2705 Database setup completed
+2025-02-20 03:04:06,326 - ERROR - \u274c Error during registration: database is locked
+2025-02-20 03:04:39,607 - INFO - \U0001f680 API Server Started
+2025-02-20 03:04:39,608 - INFO - \u2705 Database setup completed
+2025-02-20 03:04:40,142 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:04:52,629 - ERROR - \u274c Error during registration: database is locked
+2025-02-20 03:05:14,417 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:05:21,899 - INFO - \u2705 User eryjtuj registered successfully
+2025-02-20 03:05:26,302 - ERROR - \u274c Error during authentication: name 'face_encoding' is not defined
+2025-02-20 03:05:32,429 - ERROR - \u274c Error during authentication: name 'face_encoding' is not defined
+2025-02-20 03:07:39,103 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:07:42,832 - INFO - \U0001f680 API Server Started
+2025-02-20 03:07:42,832 - INFO - \u2705 Database setup completed
+2025-02-20 03:07:45,588 - INFO - \u2705 User wdafergdthgdbfd registered successfully
+2025-02-20 03:07:49,424 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:08:10,646 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:08:17,968 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:09:37,842 - INFO - \U0001f680 API Server Started
+2025-02-20 03:09:37,842 - INFO - \u2705 Database setup completed
+2025-02-20 03:10:18,726 - INFO - \U0001f680 API Server Started
+2025-02-20 03:10:18,727 - INFO - \u2705 Database setup completed
+2025-02-20 03:10:18,735 - INFO - \u2705 Database setup completed
+2025-02-20 03:12:53,717 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:12:57,406 - INFO - \U0001f680 API Server Started
+2025-02-20 03:12:57,407 - INFO - \u2705 Database setup completed
+2025-02-20 03:12:58,264 - ERROR - \u274c Error during authentication: name 'face_encoding' is not defined
+2025-02-20 03:14:39,707 - INFO - \U0001f680 API Server Started
+2025-02-20 03:14:39,708 - INFO - \u2705 Database setup completed
+2025-02-20 03:15:32,736 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:15:35,297 - INFO - \U0001f680 API Server Started
+2025-02-20 03:15:35,298 - INFO - \u2705 Database setup completed
+2025-02-20 03:15:37,687 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:15:41,514 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:15:54,209 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:15:58,126 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:17:42,887 - INFO - \U0001f680 API Server Started
+2025-02-20 03:17:42,888 - INFO - \u2705 Database setup completed
+2025-02-20 03:17:46,360 - INFO - \U0001f680 API Server Started
+2025-02-20 03:17:46,360 - INFO - \u2705 Database setup completed
+2025-02-20 03:17:49,075 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:17:54,390 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 03:18:05,350 - INFO - \u2705 User ygtyvuiubkj registered successfully
+2025-02-20 03:18:12,690 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:19:40,004 - INFO - \U0001f680 API Server Started
+2025-02-20 03:19:40,006 - INFO - \u2705 Database setup completed
+2025-02-20 03:21:36,641 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:21:39,211 - INFO - \U0001f680 API Server Started
+2025-02-20 03:21:39,212 - INFO - \u2705 Database setup completed
+2025-02-20 03:21:41,888 - INFO - \u2705 User ygtyvuiubkj registered successfully
+2025-02-20 03:24:39,074 - INFO - \U0001f680 API Server Started
+2025-02-20 03:24:39,076 - INFO - \u2705 Database setup completed
+2025-02-20 03:26:31,264 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:26:32,719 - INFO - \U0001f680 API Server Started
+2025-02-20 03:26:32,720 - INFO - \u2705 Database setup completed
+2025-02-20 03:26:39,730 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:28:13,388 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:29:05,918 - INFO - \U0001f680 API Server Started
+2025-02-20 03:29:05,918 - INFO - \U0001f680 API Server Started
+2025-02-20 03:29:05,919 - INFO - \u2705 Database setup completed
+2025-02-20 03:29:05,923 - INFO - \u2705 Database setup completed
+2025-02-20 03:29:08,733 - INFO - \u2705 User 2aergsdthgnb registered successfully
+2025-02-20 03:29:09,953 - INFO - \u2705 User aesrgdthgfhmvngcfbdvs registered successfully
+2025-02-20 03:29:11,591 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:13,218 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:14,865 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:16,494 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:18,141 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:19,768 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:21,417 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:23,046 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:24,703 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:26,325 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:27,955 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:29,422 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 03:29:31,114 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:32,565 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 03:29:34,207 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:35,854 - INFO - \u2705 User dsgfhgncbfxdvz registered successfully
+2025-02-20 03:29:37,477 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:39,085 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:40,728 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:42,369 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:44,012 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:45,640 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:47,261 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:48,902 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:50,517 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:52,156 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:53,793 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:29:59,838 - INFO - \U0001f680 API Server Started
+2025-02-20 03:29:59,839 - INFO - \u2705 Database setup completed
+2025-02-20 03:30:33,099 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:31:19,956 - INFO - \U0001f680 API Server Started
+2025-02-20 03:31:19,957 - INFO - \u2705 Database setup completed
+2025-02-20 03:31:20,329 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 03:31:29,434 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:31:34,919 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:39:26,582 - INFO - \U0001f680 API Server Started
+2025-02-20 03:39:26,585 - INFO - \u2705 Database setup completed
+2025-02-20 03:39:30,653 - INFO - \u2705 User ertfhyhgbfxvd registered successfully
+2025-02-20 03:39:40,049 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:39:47,830 - WARNING - \u26a0\ufe0f No face detected during registration
+2025-02-20 03:39:52,887 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 03:39:57,297 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 03:40:01,230 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 03:40:05,174 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 22:25:38,033 - INFO - \U0001f5a5\ufe0f Served frontend
+2025-02-20 22:25:38,774 - INFO - \U0001f680 API Server Started
+2025-02-20 22:25:38,775 - INFO - \u2705 Database setup completed
+2025-02-20 22:25:56,306 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 22:26:01,598 - INFO - \u2705 Authentication successful for user yaggy
+2025-02-20 22:26:11,717 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 22:28:21,483 - WARNING - \u26a0\ufe0f No face detected during authentication
+2025-02-20 22:29:23,897 - INFO - \u2705 User 1234567uikjhgfdsxc  registered successfully
+2025-02-20 22:30:34,187 - WARNING - \u26a0\ufe0f No face detected during authentication

@@ -1,0 +1,5 @@
+Fix facial recognition accuracy & add liveness detection.
+2️⃣ Build the queue management dashboard.
+3️⃣ Improve multi-user support & encryption.
+4️⃣ Store authentication logs & display analytics.
+5️⃣ Move logs to AWS & deploy the system online.

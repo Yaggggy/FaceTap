@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Queue System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 50px;
+      }
+      h1 {
+        color: #333;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        margin: auto;
+      }
+      input,
+      button {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button {
+        background-color: #28a745;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #218838;
+      }
+      .logs {
+        margin-top: 20px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Smart Queue Reduction System</h1>
+    <div class="container">
+      <h2>Register User</h2>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button onclick="registerUser()">Register</button>
+
+      <h2>Authenticate User</h2>
+      <button onclick="authenticateUser()">Authenticate</button>
+
+      <h2>Authentication Logs</h2>
+      <button onclick="fetchLogs()">View Logs</button>
+      <div class="logs" id="logs"></div>
+    </div>
+
+    <script>
+      async function registerUser() {
+        const name = document.getElementById("username").value;
+        if (!name) {
+          alert("Please enter a name");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("name", name);
+
+        try {
+          const response = await fetch("/register/", {
+            method: "POST",
+            body: formData,
+          });
+          const data = await response.json();
+          alert(data.message || "Registration failed");
+        } catch (error) {
+          alert("Error registering user");
+        }
+      }
+
+      async function authenticateUser() {
+        try {
+          const response = await fetch("/authenticate/", {
+            method: "POST",
+          });
+          const data = await response.json();
+          alert(data.message || "Authentication failed");
+        } catch (error) {
+          alert("Error authenticating user");
+        }
+      }
+
+      async function fetchLogs() {
+        try {
+          const response = await fetch("/logs/");
+          const data = await response.json();
+          const logsDiv = document.getElementById("logs");
+          logsDiv.innerHTML = "<h3>Logs:</h3>";
+
+          if (data.logs && data.logs.length > 0) {
+            data.logs.forEach((log) => {
+              logsDiv.innerHTML += `<p><strong>${log.user_name}</strong>: ${log.status} at ${log.timestamp}</p>`;
+            });
+          } else {
+            logsDiv.innerHTML += "<p>No logs found</p>";
+          }
+        } catch (error) {
+          alert("Error fetching logs");
+        }
+      }
+    </script>
+  </body>
+</html>
