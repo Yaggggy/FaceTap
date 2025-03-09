@@ -30,18 +30,6 @@ The primary objective of this project is to:
 - **Frontend (Upcoming):** HTML, CSS, JavaScript (for admin dashboard UI)
 - **Cloud Services (Upcoming):** AWS CloudWatch for centralized logging
 
-## 📂 Project Structure
-```
-queue_reduction/
-│-- database/        # SQLite database files
-│-- logs/            # Log files for authentication & errors
-│-- models/          # AI models for face recognition & liveness detection
-│-- scripts/         # Core scripts for authentication & verification
-│-- templates/       # HTML templates for web dashboard (upcoming)
-│-- key.key          # Encryption key for secure face data storage
-│-- README.md        # Project documentation
-```
-
 ## 🚀 Installation & Setup
 ### 1️⃣ Prerequisites
 Ensure you have **Python 3.8+** and install the required dependencies:
