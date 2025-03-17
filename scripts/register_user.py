@@ -31,7 +31,7 @@ def register_user(name, user_id):
         face_locations = face_recognition.face_locations(frame)
         if len(face_locations) == 0:
             log_error("No face detected during registration")
-            print("❌ No face detected. Try again.")
+            print("No face detected. Try again.")
             return
 
         face_encoding = face_recognition.face_encodings(frame, face_locations)[0]
