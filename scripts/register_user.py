@@ -48,11 +48,11 @@ def register_user(name, user_id):
         conn.close()
 
         log_info(f"User {name} registered successfully with encrypted ID: {encrypted_id}")
-        print(f"✅ User {name} registered successfully with encrypted ID: {encrypted_id}")
+        print(f"User {name} registered successfully with encrypted ID: {encrypted_id}")
 
     except Exception as e:
         log_error(f"Error registering user {name}: {str(e)}")
-        print(f"❌ Error: {str(e)}")
+        print(f"Error: {str(e)}")
 
 if __name__ == "__main__":
     name = input("Name: ")
