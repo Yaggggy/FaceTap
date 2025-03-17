@@ -55,8 +55,8 @@ def register_user(name, user_id):
         print(f"❌ Error: {str(e)}")
 
 if __name__ == "__main__":
-    name = input("Enter your name: ")
-    user_id = input("Enter your unique ID: ")
+    name = input("Name: ")
+    user_id = input("Unique ID: ")
 
     try:
         register_user(name, user_id)
